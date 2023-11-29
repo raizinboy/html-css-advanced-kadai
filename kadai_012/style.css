@@ -321,6 +321,41 @@ h3 {
   margin: 10px 0 0 0;
 }
 
+#cases {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#cases > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.case-card {
+  width: 33%;
+  margin: 20px;
+  background-color: #FFFFFF;
+  min-height: 400px;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.2);
+}
+
+.case-img {
+  width: 100%;
+}
+
+.case-info {
+  padding: 10px 20px;
+}
+
+.case-name {
+  color: #2710d5;
+  font-size: 19px;
+}
+.case-content {
+  font-size: 14px;
+}
+
 /* 会社概要 */
 #company {
   margin: 80px auto 80px auto;
